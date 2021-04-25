@@ -1,6 +1,6 @@
 # WebDevProject2021
 
-Online phones shop
-Project name: Bestseller
-Team name: Resolution
+Online phones shop </br>
+Project name: Bestseller </br>
+Team name: Resolution </br>
 Team members: Barlybay Nurdaulet, Zhankebaev Akimzhan, Yeskenov Rakhat
