@@ -1,0 +1,63 @@
+<!--<div class="loginbox">-->
+<!--  <div class="forms-text-password">-->
+<!--    <form action="" class="forms-text-pass">-->
+<!--      &lt;!&ndash;      <input type="text" name="" placeholder="Электронный адрес или номер телефона">&ndash;&gt;-->
+<!--      <input type="text" name="" placeholder="email or phone number" [(ngModel)]="username"/>-->
+<!--      <input type="password" name="" placeholder="Password" [(ngModel)]="password"/>-->
+<!--      <div class="entry-word">-->
+<!--        <input type="submit" name="" value="Sign in" (click)="addUser()">-->
+<!--      </div>-->
+<!--      &lt;!&ndash;      <div id="entry" >&ndash;&gt;-->
+<!--      &lt;!&ndash;        <input type="submit" name="" value="Create account">&ndash;&gt;-->
+<!--      &lt;!&ndash;      </div>&ndash;&gt;-->
+
+<!--      <div class="create-acc-line" >-->
+<!--        <a routerLink="/register">Create account</a>-->
+<!--      </div>-->
+<!--      <div class="forget-pass-line">-->
+<!--        &lt;!&ndash;        need to change routerLink to new component  &ndash;&gt;-->
+<!--        <a routerLink="">Forget password?</a>-->
+<!--      </div>-->
+<!--      <div id="line">-->
+<!--        <hr>-->
+<!--      </div>-->
+<!--      <div><h3>Users</h3>-->
+<!--        <ul *ngFor="let u of users">-->
+<!--          <li>Name:{{u.username}} Password:{{u.password}}</li>-->
+<!--        </ul>-->
+<!--      </div>-->
+<!--    </form>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+<div class="container">
+  <div class="row">
+    <div class="Absolute-Center is-Responsive">
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <form action="" id="loginForm">
+          <div class="form-group input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input class="form-control" type="text" name='username' placeholder="username" [(ngModel)]="username"/>
+          </div>
+          <div class="form-group input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input class="form-control" type="password" name='password' placeholder="password" [(ngModel)]="password"/>
+          </div>
+          <div class="form-group">
+            <button type="button" class="btn btn-def btn-block" (click)="addUser()">Login</button>
+          </div>
+          <div class="form-group text-center">
+            <a href="#">Forgot Password</a>
+          </div>
+        </form>
+      </div>
+      <div><h3>Users</h3>
+        <ul *ngFor="let u of users">
+          <li>Name:{{u.username}} Password:{{u.password}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+

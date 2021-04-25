@@ -1,0 +1,164 @@
+/*.loginbox {*/
+/*  border-radius: 8px;*/
+/*  !*box-shadow:black;*!*/
+/*  !*box-shadow: 0px 0px 4px rgb(167, 163, 163), 0px 0px 4px rgb(189, 181, 181);*!*/
+/*  width: 396px;*/
+/*  height: 345px;*/
+/*  background: rgb(255, 255, 255);*/
+/*  !*color: #000000;*!*/
+/*  top: 45%;*/
+/*  left: 50%;*/
+/*  position: absolute;*/
+/*  transform: translate(-50%, -50%);*/
+/*  box-sizing: border-box;*/
+/*  padding: 70px 30px;*/
+/*  margin-top: 50px;*/
+/*}*/
+
+/*!*.text-under-loginbox {*!*/
+/*!*  top: 75%;*!*/
+/*!*  left: 75%;*!*/
+/*!*  position: absolute;*!*/
+/*!*  transform: translate(-50%, -50%);*!*/
+/*!*  margin-top: 80px;*!*/
+/*!*}*!*/
+
+/*.loginbox input {*/
+/*  margin-top: 1px;*/
+/*  width: 100%;*/
+/*  margin-bottom: 10px;*/
+/*  width: 364px;*/
+/*  width: 385px;*/
+/*}*/
+
+/*.loginbox input[type="text"], input[type="password"] {*/
+/*  border: 1px solid rgb(187, 187, 196);*/
+/*  background: transparent;*/
+/*  width: 385px;*/
+/*  outline: none;*/
+/*  height: 50px;*/
+/*  border-radius: 5px;*/
+/*  margin-top: 10px;*/
+/*  position: relative;*/
+/*  top: -50px;*/
+/*  left: -25.5px;*/
+/*  padding-left: 3%;*/
+/*  padding-right: 3%;*/
+/*  margin-top: 1%;*/
+/*  font-size: 17px;*/
+/*  font-weight: 10;*/
+
+/*}*/
+
+/*!* Вход *!*/
+/*.loginbox input[type="submit"] {*/
+/*  !* height: 50px;*/
+/*  width: 350px;*/
+/*  background:rgb(54, 117, 235);*/
+/*  color:rgb(255, 255, 255);*/
+/*  font-weight: bold;*/
+/*  border-radius: 5px;*/
+/*  margin-bottom: 50px;*/
+/*  margin-left: 5%; *!*/
+
+/*  !*  *!*/
+
+/*  background: transparent;*/
+/*  background: rgb(15, 52, 128);*/
+/*  color:rgb(255, 255, 255);*/
+/*  outline: none;*/
+/*  height: 50px;*/
+/*  border-radius: 5px;*/
+/*  margin-top: 10px;*/
+/*  position: relative;*/
+/*  top: -50px;*/
+/*  left: -25.5px;*/
+/*  padding-left: 3%;*/
+/*  padding-right: 3%;*/
+/*  margin-top: 1%;*/
+/*  border: none;*/
+/*  width: 385px;*/
+/*}*/
+
+/*!*.loginbox input[type="submit"]:hover {*!*/
+/*!*  background-color: rgb(43, 88, 172);*!*/
+/*!*}*!*/
+
+/*!*.forms-text-password {*!*/
+/*!*  margin-top: -10px;*!*/
+/*!*}*!*/
+
+
+/*!* Создать аккаунт *!*/
+/*#entry input[type="submit"]  {*/
+/*  height: 47px;*/
+/*  width: 180px;*/
+/*  background: rgb(255, 255, 255);*/
+/*  color:rgb(255, 255, 255);*/
+/*  font-weight: bold;*/
+/*  border-radius: 5px;*/
+/*  margin-top: -10px;*/
+/*  margin-left: -38px;*/
+/*  font-size: 15px;*/
+/*  font-weight: 400;*/
+/*  color: #1455b3;*/
+
+/*}*/
+
+/*#entry input[type="submit"]:hover {*/
+/*  !*background-color: rgb(17, 23, 18);*!*/
+/*  text-decoration: #1d1d20;*/
+/*}*/
+/*.forget-pass-line {*/
+/*  margin-left: -25px;*/
+/*  !*margin-top: -70px;*!*/
+/*}*/
+/*.create-acc-line {*/
+/*  margin-left: -25px;*/
+/*  margin-top: -50px;*/
+/*}*/
+
+
+/*!* Вход style *!*/
+/*.entry-word input[type="submit"] {*/
+/*  font-size: 19px;*/
+/*  font-weight: 600;*/
+/*}*/
+
+body{
+  background: #00589F;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00589F', endColorstr='#0073CF', GradientType=0);
+  background: -webkit-linear-gradient(to bottom, #00589F 50%, #0073CF) !important;
+  background: -moz-linear-gradient(to bottom, #00589F 50%, #0073CF) !important;
+  background: -ms-linear-gradient(to bottom, #00589F 50%, #0073CF) !important;
+  background: -o-linear-gradient(to bottom, #00589F 50%, #0073CF) !important;
+  background: linear-gradient(to bottom, #00589F 50%, #0073CF) !important;
+  color: white;
+}
+
+div.well{
+  height: 250px;
+}
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.Absolute-Center.is-Responsive {
+  width: 50%;
+  height: 50%;
+  min-width: 200px;
+  max-width: 400px;
+  padding: 40px;
+}
+
+#logo-container{
+  margin: auto;
+  margin-bottom: 10px;
+  width:200px;
+  height:30px;
+  background-image:url('http://placehold.it/200x30/000000/ffffff/&text=BRAND+LOGO');
+}
+
