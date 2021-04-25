@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Iphone 12",
+    "brand": "Apple",
+    "price": 932.95,
+    "description": "A14 Bionic, the fastest iPhone processor. Edge-to-edge OLED display. Ceramic Shield front panel, which four times reduces the risk of damage to the display if dropped. And Night mode on all cameras. IPhone 12 has it all. Available in two sizes.",
+    "image": "iphone12.jpg"
+  },
+  {
+    "title": "Iphone 12 Pro Max",
+    "brand": "Apple",
+    "price": 1332.85,
+    "description": "The A14 Bionic processor is far ahead of other iPhone processors. The Pro's camera system performs much better in low light - and even better on the iPhone 12 Pro Max. Ceramic Shield four times reduces the risk of damage to the display if dropped. Let's see how everything works here.",
+    "image": "iphoneProMax12.jpg"
+  },
+  {
+    "title": "Iphone 11",
+    "brand": "Apple",
+    "price": 791.24,
+    "description": "nfc technology: yes\n- screen type: color IPS, Liquid Retina HD\n- diagonal: 6.1 inch\n- RAM size: 4096 MB\n- internal memory: 128 GB\n- battery capacity: 3110 mAh",
+    "image": "iphone11.jpg"
+  },
+  {
+    "title": "Iphone 11 Pro",
+    "brand": "Apple",
+    "price": 1561.72,
+    "description": "iPhone 11 Pro features a triple camera system for the first time. It is tightly integrated with iOS, so professional shooting is available to everyone. The iPhone 11 Pro Max takes shooting to a whole new level. The ultra-wide-angle camera is fundamentally changing the way you can capture photography: the lens captures four times the image, so you can easily capture landscapes, architecture or take close-ups. Each pixel of the new wide-angle camera's sensor supports Focus Pixels technology, and advanced software has created a Night mode. It turns on in low light and allows you to capture vivid images with natural colors and low noise, both outdoors and indoors.",
+    "image": "iphone11ProMax.jpg"
+  },
+  {
+    "title": "Iphone 8",
+    "brand": "Apple",
+    "price": 370.17,
+    "description": "For iPhone 8, we've developed a completely new design with glass front and back panels. The most popular camera has been improved. The smartest and most powerful processor ever built for an iPhone. Without wires, charging is a breeze. And augmented reality opens up possibilities never seen before. iPhone 8. New generation of iPhone.",
+    "image": "iphone88.jpg"
+  },
+  {
+    "title": "Iphone SE",
+    "brand": "Apple",
+    "price": 647.81,
+    "description": "For iPhone 8, we've developed a completely new design with glass front and back panels. The most popular camera has been improved. The smartest and most powerful processor ever built for an iPhone. Without wires, charging is a breeze. And augmented reality opens up possibilities never seen before. iPhone 8. New generation of iPhone.",
+    "image": "iphoneSE.jpg"
+  }
+]
