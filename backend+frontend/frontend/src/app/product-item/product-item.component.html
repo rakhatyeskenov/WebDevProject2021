@@ -1,0 +1,68 @@
+<!--<h2>Product item</h2>-->
+
+<!--<div *ngIf="product">-->
+<!--  <h3>{{product.id}}</h3>-->
+<!--  <a href="{{product.url}}"> <img src="{{product.image}}" alt=""></a>-->
+<!--  <h3>{{ product.name }}</h3>-->
+<!--  <h4>{{ product.price | currency }}</h4>-->
+<!--  <p>{{ product.description }}</p>-->
+<!--  <button (click)="addToCart(product)">Buy</button>-->
+<!--  <input [(ngModel)]="product.name" placeholder="Название продукта"/>-->
+
+<h2>Product Details Info:</h2>
+
+<div *ngIf="product">
+   <div class="product-page-container">
+        <ol class="product-breadcrumbs">
+            <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+            <li class="breadcrumb-item"> / <a routerLink="/">Go back</a></li>
+<!--            <li class="breadcrumb-item"> / {{product.title}}</li>-->
+        </ol>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="product-details-image">
+                    <a href="{{product.url}}">
+                      <img class="det-prod-img" src="{{product.image}}" alt=""></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-details-row">
+<!--                    <h3>{{product.id}}</h3>-->
+                    <h3>{{ product.name }}</h3>
+                    <div class="product-price">{{product.price | currency :'USD':true }}</div>
+                    <div class="product-description">{{product.description}}</div>
+                </div>
+<!--                 <div class="product-details-button">-->
+<!--                     <button (click)="addToCart(product)">Add to Cart</button>-->
+<!--                </div>-->
+              <div>
+                  <a class="bt more-bt" href="javascript:void(0)" (click)="addToCart(product)">
+                    <span class="fl">
+
+                    </span>
+                    <span class="sfl">
+                  </span>
+                    <span class="cross">
+                      <div class="add-line"><p>add</p></div>
+                    </span><i></i>
+                </a>
+                <div class="like-content">
+
+                  <button class="btn-secondary like-review" (click)="addToLiked(product)">
+                    <i class="fa fa-heart" aria-hidden="true"></i> Like
+                  </button>
+
+              </div>
+        </div>
+
+    </div>
+            <div>
+                  Comment
+              <form action="" method="POST">
+                <input type="submit" name="Submit">
+              </form>
+            </div>
+</div>
+   </div>
+
+</div>
