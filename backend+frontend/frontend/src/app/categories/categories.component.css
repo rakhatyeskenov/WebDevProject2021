@@ -1,0 +1,125 @@
+/*  .wrapper{*/
+/*  display: flex;*/
+/*   !*background: url("../../assets/main/background.png"); *!*/
+/*  padding-left: 20px;*/
+/*}*/
+
+/*.products_container{*/
+/*  width: 80%;*/
+/*}*/
+
+/*.categories{*/
+/*  width: 30%;*/
+/*}*/
+
+/*.categories_container{*/
+/*  background: #ffffff;*/
+/*  opacity: 0.9;*/
+/*  padding: 15px;*/
+/*  height: auto;*/
+/*}*/
+
+/*.categories_container h4{*/
+/*  text-transform: uppercase;*/
+/*  padding: 10px;*/
+/*  margin: 0;*/
+/*}*/
+
+/*.category_item{*/
+/*  padding: 5px;*/
+/*  display: flex;*/
+/*  border: 1px solid #858585;*/
+/*  border-radius: 5px;*/
+/*  margin-bottom: 5px;*/
+/*}*/
+
+/*.category_item a{*/
+/*  text-decoration: none;*/
+/*}*/
+/*.category_item-active {*/
+/*  background: #7b99c9;*/
+/*}*/
+/*.category_item:hover{*/
+/*  background: #7b99c9;*/
+/*  transition: 0.3s;*/
+/*}*/
+
+/*.category_item h4{*/
+/*  font-weight: normal;*/
+/*  color: #000000;*/
+/*}*/
+
+/*@media screen and (max-width: 550px) {*/
+/*  .category_item h4{*/
+/*    font-size: 10px;*/
+/*  }*/
+/*}*/
+
+/*body {*/
+/*    margin: 0;*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*    !*flex-direction: row;*!*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    background-color: lightyellow;*/
+/*}*/
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    font-size: 25px;
+    width: 8em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    transition: 0.5s;
+    margin: 0.8em;
+}
+
+li::before,
+li::after {
+    content: '';
+    position: absolute;
+    width: 0.6em;
+    height: 0.6em;
+    background-color: gainsboro;
+    border-radius: 50%;
+    transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
+    top: calc(50% - 0.6em / 2);
+}
+
+li::before {left: 0; z-index: -1;}
+li::after {right: 0; z-index: -2;}
+
+li:hover {
+    color: white;
+}
+
+li:hover::before,
+li:hover::after {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    background-color: #2D2F36;
+    /*background-color: #0b2272;*/
+   /*background-color: #474A59;*/
+}
+
+li:hover::before {
+    top: 0;
+}
+
+li:hover::after {
+    right: -0.4em;
+    filter: brightness(0.8);
+}
+
+/*-----------------------------------*/
+

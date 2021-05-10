@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #6d6d74;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+
+<ul>
+  <div>
+    <div><li><a routerLink="/home">Home</a></li></div>
+    <div><li><a routerLink="/about">About</a></li></div>
+    <div margin-left="1000px"><li><a routerLink="/cart">Cart</a></li></div>
+    <div margin-left="1000px"><li><a routerLink="/liked">Favourite</a></li></div>
+<!--    <div><li right-left="200px"><a routerLink="/login">Login</a></li></div>-->
+<!--  </div>-->
+<!--  <div>-->
+<!--     <div><li ><a routerLink="/register">Regisration</a></li></div>-->
+  </div>
+<!--        <a routerLink="/cart" class="button fancy-button">-->
+<!--        <i class="material-icons">shopping_cart</i>-->
+<!--        <h4>КОРЗИНА</h4>-->
+<!--      </a>-->
+<!--  <li class="dropdown">-->
+<!--    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>-->
+<!--    <div class="dropdown-content">-->
+<!--      <a href="#">Link 1</a>-->
+<!--      <a href="#">Link 2</a>-->
+<!--      <a href="#">Link 3</a>-->
+<!--    </div>-->
+<!--  </li>-->
+</ul>
+
+
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,123 @@
+.logo2 {
+  width: 20px;
+  color: #050550;
+  margin-bottom: 15px;
+  margin-left: 11px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .compare-bar-content {
+        text-align: center
+    }
+    .header-logo-wrapper {
+        text-align: left;
+        color: #050550;
+    }
+    .header-mobile-nav-wrapper {
+        display: none
+    }
+    .mobil-shopping-cart {
+        display: none
+    }
+    .log-registration {
+      position: absolute;
+      left: 1180px;
+      top: 12px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .header-nav-wrapper {
+        display: none
+    }
+    .mobile-header-nav li {
+        display: block;
+        line-height: 30px;
+    }
+    .header-logo-wrapper {
+        display: table-cell;
+        text-align: center;
+        vertical-align: top;
+    }
+    .header-mobile-nav-wrapper {
+        display: table-cell;
+        float:left;
+    }
+    .header-cart-item {
+        display: none
+    }
+}
+
+
+
+
+
+/*-------------------------------------------------------------*/
+
+
+/*.navigation_container{*/
+/*  background: #7b99c9;*/
+/*  border-bottom: 1px solid black;*/
+/*  border-top: 1px solid black;*/
+/*  margin-top: -75px;*/
+/*}*/
+
+/*.navigation{*/
+/*  margin: 0 auto;*/
+/*  width: 80%;*/
+/*  display: flex;*/
+/*  justify-content: space-between;*/
+/*  align-items: center;*/
+/*  align-content: center;*/
+/*  color: #ffffff;*/
+/*  padding: 10px 0;*/
+/*  flex-wrap: wrap;*/
+/*}*/
+
+/*.navigation h4{*/
+/*  box-sizing: border-box;*/
+/*  margin: 0;*/
+/*}*/
+
+/*.navigation h4:hover{*/
+/*  border-bottom: 1px solid white;*/
+/*}*/
+
+/*.navigation_buttons{*/
+/*  display: flex;*/
+/*  text-transform: uppercase;*/
+/*}*/
+
+/*.navigation_buttons h4{*/
+/*  margin-right: 10px;*/
+/*  font-weight: normal;*/
+/*}*/
+
+/*.navigation_search{*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.navigation_search input{*/
+/*  margin-right: 10px;*/
+/*  padding: 5px;*/
+/*  border-radius: 5px;*/
+/*}*/
+
+/*.navigation_search h4{*/
+/*  font-weight: normal;*/
+/*}*/
+
+/*.navigation a{*/
+/*  color: white;*/
+/*  text-decoration: none;*/
+/*  display: flex;*/
+/*}*/
+
+/*.navigation i{*/
+/*  color: white;*/
+/*}*/
